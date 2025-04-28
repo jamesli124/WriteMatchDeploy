@@ -1,7 +1,8 @@
 streamlit
-numpy
-pillow
-opencv-python-headless
 torch
 torchvision
 ultralytics
+pillow
+numpy
+opencv-python-headless
+opencv-python==99999999
