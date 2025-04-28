@@ -140,6 +140,7 @@ st.set_page_config(page_title="Digit Comparison Table", layout="wide")
 st.title("WriteMatch: Demo")
 
 st.markdown("[Download sample images](https://github.com/jamesli124/WriteMatchDeploy/tree/main/sample_test_data)")
+st.markdown("_Note: Images are available individually, but you can also download the full set as a ZIP._")
 
 q_file = st.file_uploader("Upload First Image", type=["png","jpg","jpeg"])
 r_file = st.file_uploader("Upload Second Image", type=["png","jpg","jpeg"])
