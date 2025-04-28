@@ -5,4 +5,4 @@ pandas
 Pillow
 torch
 torchvision
-ultralytics
+ultralytics==8.0.232
