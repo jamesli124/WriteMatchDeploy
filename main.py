@@ -139,6 +139,8 @@ def infer_by_label(query_img: Image.Image, reference_img: Image.Image):
 st.set_page_config(page_title="Digit Comparison Table", layout="wide")
 st.title("WriteMatch: Demo")
 
+st.markdown("[Download sample images](https://github.com/jamesli124/WriteMatchDeploy/tree/main/sample_test_data)")
+
 q_file = st.file_uploader("Upload First Image", type=["png","jpg","jpeg"])
 r_file = st.file_uploader("Upload Second Image", type=["png","jpg","jpeg"])
 
